@@ -1,0 +1,10 @@
+1- Cuando se ejecuta managedropcard hay que validar:
+
+1 que si no existen cartas en el deck, el deck acepte el tap
+2 que si existen cartas en el deck que dichas cartas esten en la posicion del
+  y que esten con flip = 0
+3 que si una carta esta en el stack, dicha carta este en el stack que le 
+  corresponde segun su suit (fijarse en que stack esta el as) si esta mal
+  pasarla al stack que corresponda o devolverla al deck
+4 que si una carta esta en el deck on en el drop panel su posicion sea valida
+  y no se halla desplazado hacia algun stack (los de abajo o los de aces)
